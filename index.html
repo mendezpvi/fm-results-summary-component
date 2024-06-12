@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Summary</title>
+
+  <link rel="icon" href="./assets/icon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="./assets/icon/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <main class="main b-shadow">
+    <h1>Results Summary Component</h1>
+    <section class="result clr-white gradient-bg">
+      <h2 class="result__ttl fs-s fw-500 opa-80">Your Result</h2>
+      <div class="average gradient-cir">
+        <span class="average__res fs-l fw-800" id="average-el"></span>
+        <span class="average__div fw-500 opa-80">of 100</span>
+      </div>
+      <h3 class="result__sbttl fs-m fw-700">Great</h3>
+      <p class="result__desc fs-xs opa-80">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary clr-black">
+      <h4 class="summary__ttl fs-s fw-700">Summary</h4>
+      <ul class="summary-wrap fs-xs fw-500" id="summary-wrap"></ul>
+      <button class="summary__btn fs-xs fw-500 clr-white" id="summary-btn" type="button">Continue</button>
+    </section>
+  </main>
+
+  <footer class="attribution fw-500">
+    <small>Challenge by <a class="attribution__cta fw-700" href="https://www.frontendmentor.io/challenges/" target="_blank" rel="noreferrer">Frontend Mentor</a> - Coded by <a class="attribution__cta fw-700" href="https://github.com/mendezpvi/fm-results-summary-component" target="_blank" rel="noreferrer">VIMP</a></small>
+  </footer>
+  
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
