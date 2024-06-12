@@ -1,4 +1,4 @@
-import { data } from '/js/data.js'
+import { data } from './data.js'
 
 const summaryElements = document.getElementById("summary-wrap")
 const averageEl = document.getElementById("average-el")
